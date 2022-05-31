@@ -69,6 +69,7 @@ if __name__ == '__main__':
 	suite_a = unittest.TestSuite()		# 调用unittest的TestSuite
 	suite_a.addTest(TestLogin('test_login_success'))		# 调用addTest方法将测试用例TestLogin类test_login_success的方法添加到套件suite_a
 	suite_a.addTest(TestLogin('test_user_wrong'))		# 调用addTest方法将测试用例TestLogin类test_user_wrong的方法添加到套件suite_a
+	suite_a.addTest(TestLogin('test_password_is_null'))		# 调用addTest方法将测试用例TestLogin类test_password_is_null的方法添加到套件suite_a
 	print(suite_a)
 
 	# 运行套件suite_a
