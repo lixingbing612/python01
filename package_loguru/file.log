@@ -1,0 +1,15 @@
+2022-05-30 17:42:18 | DEBUG | aaa | 34| 这是一条debug日志
+2022-05-30 17:42:18 | INFO | aaa | 35| 这是一条info日志
+2022-05-30 17:42:18 | WARNING | aaa | 36| 这是一条warning日志
+2022-05-30 17:42:18 | SUCCESS | aaa | 37| 这是一条success日志
+2022-05-30 17:42:18 | ERROR | aaa | 38| 这是一条error日志
+2022-05-30 17:42:18 | INFO | aaa | 42| 我的名字叫张三，今天星期1
+2022-05-30 17:43:28 | INFO | demo_loguru | 37| 这是一条info日志
+2022-05-30 17:43:28 | WARNING | demo_loguru | 38| 这是一条warning日志
+2022-05-30 17:43:28 | SUCCESS | demo_loguru | 39| 这是一条success日志
+2022-05-30 17:43:28 | ERROR | demo_loguru | 40| 这是一条error日志
+2022-05-30 17:49:07 | INFO | demo_loguru | 37| 这是一条info日志
+2022-05-30 17:49:08 | WARNING | demo_loguru | 38| 这是一条warning日志
+2022-05-30 17:49:08 | SUCCESS | demo_loguru | 39| 这是一条success日志
+2022-05-30 17:49:08 | ERROR | demo_loguru | 40| 这是一条error日志
+2022-05-30 17:49:08 | INFO | demo_loguru | 44| 他的的外号叫帅锅，他的名字是张三
