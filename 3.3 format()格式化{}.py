@@ -9,3 +9,9 @@ str3 = '今天周{x}，张三用了{y}元'.format(x='一', y=99.9)
 print('3.{}内的关键字对应foemat的值：', str3)
 str4 = '今天周{x}，张三用了{0}元'.format(99.9, x='一')
 print('4.{}可用数字也可用关键字：', str4)
+
+
+# 字符串定义变量后 输出 f ‘{}’
+name = 'zhangsan'
+space = 'home'
+print(f'我是{name},我在{space}')

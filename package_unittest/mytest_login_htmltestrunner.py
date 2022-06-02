@@ -52,11 +52,19 @@ if __name__ == '__main__':
 	print(suite_a)
 
 	# 创建测试报告文件，是HTML格式
-	# test_report = './mytest_report.html'	# 设置报告生成路径和文件名
-	your_test_report = './abc_report.html'
-	with open(your_test_report,'wb') as f:	# 打开报告
-	# with open(test1_report,'wb') as f:
-		# runner = HTMLTestRunner(f, title='测试报告', description="测试报告描述") # 调用生成测试报告
-		# runner.run(suite_a)
-		runner = HTMLTestRunner(f, title='测试报告', description='描述')
+	# # test_report = './mytest_report.html'	# 设置报告生成路径和文件名
+	# your_test_report = './abc_report.html'
+	# with open(your_test_report,'wb') as f:	# 打开报告
+	# # with open(test1_report,'wb') as f:
+	# 	# runner = HTMLTestRunner(f, title='测试报告', description="测试报告描述") # 调用生成测试报告
+	# 	# runner.run(suite_a)
+	# 	runner = HTMLTestRunner(f, title='测试报告', description='描述')
+	# 	runner.run(suite_a)
+
+
+
+
+	test_report = './test_report.html'
+	with open(test_report,'wb') as f:
+		runner = HTMLTestRunner(f,title='csbg',description='ms')
 		runner.run(suite_a)
