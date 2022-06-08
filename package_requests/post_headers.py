@@ -17,8 +17,10 @@ import requests
 
 # 2. 使用post方法请求 发送POST请求
 login_url = "http://121.196.13.152:8080/admin/auth/login"
-login_json = {"username": "admin123", "password": "admin123"}
-response = requests.post(login_url, json=login_json)
+login_data = {"username": "admin123", "password": "admin123"}
+headers = {"Content-Type":"application/json"}
+response = requests.post(login_url, json=login_data, headers = headers)
+
 # 获取响应内容
 print(response.text)
 
